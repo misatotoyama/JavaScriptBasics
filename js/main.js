@@ -1,3 +1,22 @@
 'use strict'
 
-console.log('Hello World from main.js');
+let centi = 500;
+
+centi += 100;
+centi *= 10;
+
+console.log(centi);
+
+
+
+const price= 1200;
+
+console.log(price > 1000);
+console.log(500 < 1000);
+console.log(price >= 1000);
+console.log(price <= 1000);
+console.log(price === 1000);
+console.log(price !== 1000);
+
+console.log(Boolean(0));
+console.log(Boolean('hello'));
