@@ -4,6 +4,7 @@ let centi = 500;
 
 centi += 100;
 centi *= 10;
+centi -=1;
 
 console.log(centi);
 
