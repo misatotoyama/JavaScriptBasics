@@ -21,3 +21,15 @@ console.log(price !== 1000);
 
 console.log(Boolean(0));
 console.log(Boolean('hello'));
+
+const score = 90;
+
+if (score >= 80){
+    console.log('Great!');
+    }else if (score >= 60){
+        console.log('Good.')
+    }else{
+        console.log('ok...');
+    }
+
+score >= 80 ? console.log('great!') : console.log('OK~');
