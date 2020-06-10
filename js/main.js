@@ -1,8 +1,7 @@
 'use strict'
 
-<<<<<<< HEAD
 console.log('Hello World from main.js');
-=======
+
 let centi = 500;
 
 centi += 100;
@@ -36,4 +35,3 @@ if (score >= 80){
     }
 
 score >= 80 ? console.log('great!') : console.log('OK~');
->>>>>>> master
