@@ -62,3 +62,7 @@ switch (signal) {
         default:
             console.log('wrongsignal');
 }
+
+for (let i = 1;i <= 10; i ++){
+    console.log(`hello ${i}`);
+}
