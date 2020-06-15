@@ -91,17 +91,17 @@ for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 
-    function showAd() {
+    function showAd(message = 'Adv') {
         console.log('----------');
-        console.log('--- Ad ---');
+        console.log(`--- ${message} ---`);
         console.log('----------');
     }
 
-    showAd();
+    showAd('Heaader Ad');
     console.log('Tom is great!');
     console.log('Bob is great!');
     showAd();
     console.log('Steve is great!');
     console.log('Richard is great!');
-    showAd();
+    showAd('Footer Ad');
 
