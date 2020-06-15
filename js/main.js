@@ -59,19 +59,19 @@ switch (signal) {
     case 'green':
         console.log('Go!');
         break;
-        default:
-            console.log('wrongsignal');
+    default:
+        console.log('wrongsignal');
 }
 
-for (let i = 1;i <= 10; i ++){
+for (let i = 1; i <= 10; i++) {
     console.log('hello');
-    console.log('hello' +i);
+    console.log('hello' + i);
     console.log(`hello ${i}`);
 }
 
 let hp = 100;
 
-while (hp > 0){
+while (hp > 0) {
     console.log(`${hp}HP left!`);
     hp -= 15;
 }
@@ -80,13 +80,28 @@ let Hp = -50;
 
 do {
     console.log(`${Hp}HP left!`);
-    hp -= 15 ;
-    }
-    while (hp > 0);
+    hp -= 15;
+}
+while (hp > 0);
 
-for (let i = 1; i <= 10; i++){
-    if(i === 4){
+for (let i = 1; i <= 10; i++) {
+    if (i === 4) {
         break;
     }
     console.log(i);
 }
+
+    function showAd() {
+        console.log('----------');
+        console.log('--- Ad ---');
+        console.log('----------');
+    }
+
+    showAd();
+    console.log('Tom is great!');
+    console.log('Bob is great!');
+    showAd();
+    console.log('Steve is great!');
+    console.log('Richard is great!');
+    showAd();
+
