@@ -105,3 +105,19 @@ for (let i = 1; i <= 10; i++) {
     console.log('Richard is great!');
     showAd('Footer Ad');
 
+// function sum(a, b, c){
+//     return a + b + c;
+// }
+
+// sum(1, 2, 3);
+// sum(3, 4, 5);
+
+// const total = sum(1, 2, 3) + sum(3, 4, 5);
+// console.log(total);
+
+const sum = function(a, b, c){
+    return a + b + c;
+};
+
+const total = sum(1, 2, 3) + sum(3, 4, 5);
+console.log(total);
